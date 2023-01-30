@@ -142,6 +142,62 @@ a {
 
 }
 
+.service-top{
+  text-align: center;
+  max-width: 500px;
+  display: inline;
+}
+
+.service-top h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #8e593e;
+}
+
+.service-top p {
+  font-size: 20px;
+  color: #caaf9e;
+}
+
+.card {
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.service-bottom{
+  text-align: center;
+  max-width: 1500px;
+  margin: 50px ;
+  padding: 50px;
+}
+
+.service-bottom h1{
+  font-size: 1.5rem;
+  color: #ab7d62;
+}
+
+.service-bottom h3{
+  font-style: italic;
+  color: #ab7d62;
+}
+
+.service-bottom p{
+  font-size: 15px;
+  color: #ab7d62;
+}
+
+.service-bottom li{
+  text-align: left;
+  padding-bottom: 10px;
+  color: #b39b8f;
+}
+
 /* 
 frame {
     border: 14px solid #8e593e;
