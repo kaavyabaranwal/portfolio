@@ -67,11 +67,28 @@ a {
     justify-content: center;
 }
 
+.intro h3{
+    text-align: right;
+    margin-right: 7vw;
+    margin-bottom: 1vh;
+    font-weight: 500;
+
+    color: var(--athens-gray);
+}
+.intro h2{
+    text-align: right;
+    margin-right: 7vw;
+    margin-bottom: 1vh;
+    font-weight: 500;
+
+    color: var(--athens-gray);
+}
 .intro h1 {
     text-align: right;
     margin-right: 7vw;
     margin-bottom: 1vh;
     font-weight: 500;
+    font-size: 4rem;
     color: var(--athens-gray);
 }
 
@@ -207,3 +224,7 @@ frame {
     z-index: 3;
 
 } */
+.navbar-inner {
+    background:transparent;
+}
+
