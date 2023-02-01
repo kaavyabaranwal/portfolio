@@ -99,7 +99,7 @@ a {
 }
 
 .about {
-    height: 90vh;
+  
     background-color: var(--athens-gray);
     display: flex;
     align-items: center;
@@ -122,7 +122,7 @@ a {
 }
 
 .content {
-    height: 25vh;
+   
     max-width: 55vw;
     margin: 0 auto;
     display: flex;
@@ -137,13 +137,13 @@ a {
 }
 
 .content .info {
-    text-align: justify;
-    line-height: 23px;
+    
+  
 }
 
 .content .socials ul {
     display: flex;
-    width: auto;
+    
 }
 
 .socials a {
@@ -228,3 +228,28 @@ frame {
     background:transparent;
 }
 
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .content .socials ul {
+        flex-direction: column;
+        
+    }
+  }
+
+.profile_img{
+    margin-top:5rem;
+  }
+  .gt{
+    margin-top:5rem;
+    font-size:3rem;
+  }
