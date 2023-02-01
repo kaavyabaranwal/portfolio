@@ -161,7 +161,7 @@ a {
 
 .service-top{
   text-align: center;
-  max-width: 500px;
+  margin-top:10px;
   display: inline;
 }
 
@@ -176,23 +176,23 @@ a {
   font-size: 20px;
   color: #caaf9e;
 }
-
+/* 
 .card {
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
-  max-width: 900px;
+
   margin: auto;
   text-align: center;
   font-family: "Montserrat",sans-serif;
   padding-top: 20px;
   background-color: rgba(0, 0, 0, 0.03);
-}
+} */
 
-.service-bottom{
+/* .service-bottom{
   text-align: center;
   max-width: 1500px;
   margin: 50px ;
   padding: 50px;
-}
+} */
 
 .service-bottom h1{
   font-size: 1.5rem;
@@ -228,7 +228,10 @@ frame {
     background:transparent;
 }
 
-
+.card{
+    width: 40rem;
+    height: auto;
+}
 
 .flex-container {
     display: flex;
@@ -244,6 +247,13 @@ frame {
         flex-direction: column;
         
     }
+    .card{
+width: 18rem;
+    }
+    .containerr > div {
+        flex: 90%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+        /*demo*/
+      }
   }
 
 .profile_img{
@@ -252,4 +262,22 @@ frame {
   .gt{
     margin-top:5rem;
     font-size:3rem;
+  }
+
+  .item {
+    padding:10px;
+    
+  }
+  
+  .containerr {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+  }
+  
+  .containerr > div {
+    flex: 45%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    box-shadow: 0 0 0 1px black;
+    margin-bottom: 10px;
   }
