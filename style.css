@@ -284,7 +284,6 @@ width: 18rem;
 /*PROJECTS CSS*/
 
 #projects{
-	margin-top:100px;
     height: 100%;
 	display: flex;
 	flex-direction: column;
